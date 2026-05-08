@@ -1,103 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #ffe3ef, #ffd4e6 40%, #f7b8d6 100%);
+  color: #4a1f33;
 }
-body{
- background-color:#f3ede5;
- font-family: 'Inter', sans-serif;
-
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
 }
-
-
-.tillu{
-    width: 70%;
-
+.hero { text-align: center; margin-bottom: 2rem; }
+.tag {
+  display: inline-block;
+  background: #fff;
+  border-radius: 999px;
+  padding: .35rem .8rem;
+  font-weight: 600;
 }
-
-.btn-color {
-    color :#143417;
+h1 { font-size: clamp(2rem, 4vw, 3rem); margin: .7rem 0; }
+.samples {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
-
-.text-color{
-  color: #717171;
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 12px 30px rgba(74, 31, 51, .16);
 }
-
-.text-color1{
-    color: #717171;
-    margin-top: 2rem;
-  }
-
-.text-color2{
-    color: #717171;
-    text-align: center;
-
+.card h2 { margin-top: 0; font-size: 1.15rem; }
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background: #e14e8f;
+  color: white;
+  padding: .55rem .9rem;
+  border-radius: .6rem;
+  font-weight: 600;
 }
-
- .img1{
-    margin-left: 1rem;
-  }
-
-.img2{
-    padding: 2%;
-    
-}
-
-
-.section-1{
-    padding-top: 4rem;
- padding-bottom: 4rem;
-
-}
-.sec1-col1{
-    display: flex;
-    align-items: center;
-}
-.sec1-col1 h1{
-    font-size: 3.5rem;
-    font-weight: 700;
-}
-.umesh{
-    height: 200px;
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-}
-
-
-
-@media only screen and (max-width:1200px){
-    
-}
-@media only screen and (max-width:996px){
-    
-}
-@media only screen and (max-width:767px){
-    .tillu{
-    width: 100%;
-    } 
-}
-@media only screen and (max-width:575px){
-    .tillu{
-        display: none;
-    }
-}
-.btn1{
-    background: #17521c;
-    background-image: -webkit-linear-gradient(top, #17521c, #17521c);
-    background-image: -moz-linear-gradient(top, #17521c, #17521c);
-    background-image: -ms-linear-gradient(top, #17521c, #17521c);
-    background-image: -o-linear-gradient(top, #17521c, #17521c);
-    background-image: linear-gradient(to bottom, #17521c, #17521c);
-    -webkit-border-radius: 6;
-    -moz-border-radius: 6;
-    border-radius: 6px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 19px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-
-  
